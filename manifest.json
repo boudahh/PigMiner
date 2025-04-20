@@ -12,7 +12,7 @@
     "https://www.pond0x.com/*"
   ],
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/icon.png",
       "48": "icons/icon.png",
@@ -32,7 +32,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "countdown-beep-deep.mp3"
+        "assets/countdown-beep-deep.mp3"
       ],
       "matches": [
         "<all_urls>"
