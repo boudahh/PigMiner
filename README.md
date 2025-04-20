@@ -1,4 +1,4 @@
-# 🐷 PigMiner v3.5
+# 🐷 PigMiner v3.6
 
 PigMiner is a Chrome Extension designed to automate mining and claiming rewards on [Pond0x](https://pond0x.com/mining).
 
