@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PigMiner",
-  "version": "3.6.1",
+  "version": "3.6.3",
   "description": "Auto-claims Pond0x mining rewards when hash rate is 0 , at a user-defined interval or by a set amount. refreshes after claim and waits a user supplied time and then presses mine.",
   "permissions": [
     "scripting",
@@ -12,7 +12,7 @@
     "https://www.pond0x.com/*"
   ],
   "action": {
-    "default_popup": "popup/popup.html",
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon.png",
       "48": "icons/icon.png",
@@ -32,7 +32,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "assets/countdown-beep-deep.mp3"
+        "countdown-beep-deep.mp3"
       ],
       "matches": [
         "<all_urls>"
