@@ -497,7 +497,7 @@ function startVisualDelayCountdown() {
         let beepSound = null;
         if (soundState.enabled) {
              try {
-                 beepSound = new Audio(chrome.runtime.getURL("countdown-beep-deep.mp3"));
+                 beepSound = new Audio(chrome.runtime.getURL("assets/countdown-beep-deep.mp3"));
                  beepSound.volume = 0.5; // Set volume once
                  // Optional: Preload the audio slightly, may improve responsiveness on first play
                  // beepSound.load();
@@ -523,7 +523,7 @@ function startVisualDelayCountdown() {
                 // --- Optimization: Update audio object based on toggle ---
                 if (soundState.enabled && !beepSound) {
                      try {
-                         beepSound = new Audio(chrome.runtime.getURL("countdown-beep-deep.mp3"));
+                         beepSound = new Audio(chrome.runtime.getURL("assets/countdown-beep-deep.mp3"));
                          beepSound.volume = 0.5;
                          // beepSound.load();
                      } catch (err) {

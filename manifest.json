@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PigMiner",
-  "version": "3.6",
+  "version": "3.6.1",
   "description": "Auto-claims Pond0x mining rewards when hash rate is 0 , at a user-defined interval or by a set amount. refreshes after claim and waits a user supplied time and then presses mine.",
   "permissions": [
     "scripting",
